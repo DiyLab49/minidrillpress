@@ -1,0 +1,131 @@
+(footprint "Connector_JST_HX_1x2_2.54"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 2 -2.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "474b0a13-36fa-4a5b-a15a-0fbbf9bb65ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Connector_JST_HX_1x2_2.54"
+		(at 1.1 -5.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1e0afe63-dddb-44bf-9925-2ff0903a61e3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0a0a5ef7-af78-4824-9095-a4c23d3fa0c6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7fdba3ce-dd2b-4a1b-9562-b15e296c3a10")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -2.8 -4.2)
+		(end 5.37 2.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "021bb88e-56c5-4870-becf-641e844e2dbc")
+	)
+	(fp_rect
+		(start -3 -4.4)
+		(end 5.6 2.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "93935758-3dcc-46ac-91eb-2f9ba3585cc5")
+	)
+	(fp_rect
+		(start -2.57 -4)
+		(end 5.11 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "54e9b3d0-8954-4608-818e-66ae9b0f5274")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.8 3.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "40bf775b-da9e-411b-9152-77da351ed0d6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 2.1 2.1)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "42702983-a14a-42c9-86c2-04e17992a187")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 2.1 2.1)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "63f8ebb4-f9de-4f60-abd0-9df3d41eadf2")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical.step"
+		(offset
+			(xyz 2.5 0.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
+)
